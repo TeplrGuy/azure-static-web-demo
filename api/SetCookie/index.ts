@@ -10,7 +10,7 @@ const httpTrigger: AzureFunction = async function (context: Context, req: HttpRe
       {
         name: 'HOST',
         value: 'value1',
-        secure: true
+        //secure: true
       },
        {
         name: 'Testing',
