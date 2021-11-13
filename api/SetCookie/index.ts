@@ -14,7 +14,8 @@ const httpTrigger: AzureFunction = async function (context: Context, req: HttpRe
       },
        {
         name: '__HOST-Testing',
-        value: 'value2'
+        value: 'value2',
+         secure: true,
         //domain: '.blue-ocean-01ce8ea10.azurestaticapps.net'
       },{
         name: '__Secure-Testing',
