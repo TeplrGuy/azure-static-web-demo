@@ -8,8 +8,9 @@ const httpTrigger: AzureFunction = async function (context: Context, req: HttpRe
     body: 'Hello, world.',
     cookies: [
       {
-        name: 'HOST__Secure',
-        value: 'value1;Secure'
+        name: 'HOST',
+        value: 'value1',
+        secure: true
       },
        {
         name: '__Secure',
