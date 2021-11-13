@@ -14,6 +14,10 @@ const httpTrigger: AzureFunction = async function (context: Context, req: HttpRe
       {
         name: 'cookie2',
         value: 'value2'
+      },
+       {
+        name: '__Secure',
+        value: 'value2'
       }
     ]
   }
