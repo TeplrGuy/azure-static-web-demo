@@ -15,7 +15,7 @@ const httpTrigger: AzureFunction = async function (context: Context, req: HttpRe
        {
         name: '__Secure',
         value: 'value2',
-        domain: 'removed_domain'
+        domain: 'new-domain.com'
       }
     ]
   }
